@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BusyBus</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+</head>
+
+<body>
+  <!--Top Nav-->
+  <div class="container">
+    <section class="topnav">
+      <div class="statusbar"></div>
+      <div class="stopnav">
+        <div class="back">
+          <i class="fas fa-chevron-left fa-2x"></i>
+        </div>
+        <div class="stop">
+          Washington & State
+        </div>
+        <div class="star">
+          <i class="fas fa-star fa-2x"></i>
+        </div>
+      </div>
+    </section>
+
+    <!--Map Section-->
+    <section class="map">
+      <div class="mapimg" alt="map"></div>
+      <div class="busmap"></div>
+      <div class="mapicon" alt="current location icon"></div>
+      <div class="mapiconline"></div>
+    </section>
+    <!--list of bus lines-->
+    <section class="buslines">
+      <div class="buslinenav">
+        <div class="blbar">Bus Lines</div>
+      </div>
+      <!---eastbound buses------------------------------>
+      <div class="Southbound">
+        <div class="direction">Eastbound</div>
+        <!--Randolph/Harbor Dr-->
+        <div class="busstop">
+          <div class="buswrapper">
+            <div class="busicon">
+              <div class="businner">
+                <div class="innerbusbox">
+                  <div class="busnumber"></div>
+                </div>
+              </div>
+              <div class="buslinenumber">60</div>
+            </div>
+          </div>
+          <div class="destwrapper">
+            <div class="destination"> Randolph/Harbor Dr </div>
+          </div>
+          <div class="freqwrapper">
+            <div class="arrival">1 min</div>
+            <div class="frequency">every 20 mins</div>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!--Navy Pier Southbound-->
+        <div class="busstop">
+          <div class="buswrapper">
+            <div class="busicon">
+              <div class="businner">
+                <div class="innerbusbox">
+                  <div class="busnumber"></div>
+                </div>
+              </div>
+              <div class="buslinenumber">124</div>
+            </div>
+          </div>
+          <div class="destwrapper">
+            <div class="destination">Navy Pier</div>
+          </div>
+          <div class="freqwrapper">
+            <div class="arrival">3 min</div>
+            <div class="frequency">every 10 mins</div>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+
+
+      <!---Northbound buses------------------------------>
+      <div class="Northbound">
+        <div class="direction">Northbound</div>
+        <!--Devon/ Clark-->
+        <div class="busstop">
+          <div class="buswrapper">
+            <div class="busicon">
+              <div class="businner">
+                <div class="innerbusbox">
+                  <div class="busnumber"></div>
+                </div>
+              </div>
+              <div class="buslinenumber">151</div>
+            </div>
+          </div>
+          <div class="destwrapper">
+            <div class="destination">Devon/Clark</div>
+          </div>
+          <div class="freqwrapper">
+            <div class="arrival">4 min</div>
+            <div class="frequency">every 16 mins</div>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <!---Southbound------------------------------>
+      <div class="Southbound">
+        <div class="direction">Southbound</div>
+        <!--103rd/Stony Island-->
+        <div class="busstop">
+          <div class="buswrapper">
+            <div class="busicon">
+              <div class="businner">
+                <div class="innerbusbox">
+                  <div class="busnumber"></div>
+                </div>
+              </div>
+              <div class="buslinenumber">J14</div>
+            </div>
+          </div>
+          <div class="destwrapper">
+            <div class="destination">103rd/Stony Island</div>
+          </div>
+          <div class="freqwrapper">
+            <div class="arrival">5 min</div>
+            <div class="frequency">every 15 mins</div>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!--Navy Pier Southbound-->
+        <div class="busstop">
+          <div class="buswrapper">
+            <div class="busicon">
+              <div class="businner">
+                <div class="innerbusbox">
+                  <div class="busnumber"></div>
+                </div>
+              </div>
+              <div class="buslinenumber">124</div>
+            </div>
+          </div>
+          <div class="destwrapper">
+            <div class="destination">Navy Pier</div>
+          </div>
+          <div class="freqwrapper">
+            <div class="arrival">9 min</div>
+            <div class="frequency">every 10 mins</div>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <!---Reroute buses------------------------------>
+      <div class="Reroute">
+        <div class="direction">Reroute</div>
+        <!--Jackson Park Express-->
+        <div class="busstop">
+          <div class="buswrapper">
+            <div class="busicon">
+              <div class="businner">
+                <div class="innerbusbox">
+                  <div class="busnumber"></div>
+                </div>
+              </div>
+              <div class="buslinenumber">6x</div>
+            </div>
+          </div>
+          <div class="destwrapper">
+            <div class="destination">Jackson Park Express</div>
+          </div>
+          <div class="freqwrapper">
+            <div class="arrival">12 min</div>
+            <div class="frequency">N/A</div>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <!---Out of service buses------------------------------>
+      <div class="OutofService">
+        <div class="direction">Out of Service</div>
+        <!--Cottage Grove-->
+        <div class="busstop">
+          <div class="buswrapper">
+            <div class="busicon">
+              <div class="businner">
+                <div class="innerbusbox">
+                  <div class="busnumber"></div>
+                </div>
+              </div>
+              <div class="buslinenumber">4</div>
+            </div>
+          </div>
+          <div class="destwrapper">
+            <div class="destination">Cottage Grove</div>
+          </div>
+          <div class="freqwrapper">
+            <div class="arrival">N/A</div>
+            <div class="frequency">Resumes 12:10am</div>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!--Madison-->
+        <div class="busstop">
+          <div class="buswrapper">
+            <div class="busicon">
+              <div class="businner">
+                <div class="innerbusbox">
+                  <div class="busnumber"></div>
+                </div>
+              </div>
+              <div class="buslinenumber">20</div>
+            </div>
+          </div>
+          <div class="destwrapper">
+            <div class="destination">Madison</div>
+          </div>
+          <div class="freqwrapper">
+            <div class="arrival">N/A</div>
+            <div class="frequency">Resumes 12:10am</div>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+        <!--Streeterville / Taylor-->
+        <div class="busstop">
+          <div class="buswrapper">
+            <div class="busicon">
+              <div class="businner">
+                <div class="innerbusbox">
+                  <div class="busnumber"></div>
+                </div>
+              </div>
+              <div class="buslinenumber">157</div>
+            </div>
+          </div>
+          <div class="destwrapper">
+            <div class="destination">Streeterville/Taylor</div>
+          </div>
+          <div class="freqwrapper">
+            <div class="arrival">N/A</div>
+            <div class="frequency">Resumes 6:00am</div>
+          </div>
+          <div class="arrow">
+            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+</body>
+
+</html>
