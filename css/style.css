@@ -27,7 +27,7 @@ padding-top: 76px;
   z-index: 320;
 }
 .statusbar {
-  background-image: url('/images/Statusbar.png');
+  background-image: url('/images/statusbar.png');
   background-repeat: no-repeat;
   height: 20px;
   width: 100%;
@@ -64,7 +64,7 @@ display: inline-block;
 
   /* Map */
   .map{
-    background-image: url('/images/Mask.png');
+    background-image: url('/images/mask.png');
     height: 255px;
     width: 100%
   }
