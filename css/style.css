@@ -12,6 +12,7 @@ body {
 width: 100%;
 max-width: 375px;
 padding-top: 76px;
+margin: 0;
 }
 
   /* Top Navigation */
@@ -27,7 +28,7 @@ padding-top: 76px;
   z-index: 320;
 }
 .statusbar {
-  background-image: url(/images/statusbar.png);
+  background-image: url("../images/statusbar.png");
   background-repeat: no-repeat;
   height: 20px;
   width: 100%;
@@ -64,7 +65,7 @@ display: inline-block;
 
   /* Map */
   .map{
-    background-image: url(/images/mask.png);
+    background-image: url("../images/mask.png");
     height: 255px;
     width: 100%
   }
@@ -136,7 +137,7 @@ display: inline-block;
   width: 49px;
   height: 39px;
   text-align: center;
-  background-image: url(/images/buslogo.png);
+  background-image: url("../images/buslogo.png");
   background-position: center 4.5px;
   background-repeat: no-repeat;
   float: left;
@@ -191,7 +192,7 @@ display: inline-block;
   float: left;
   width: 25%;
   height: 100%;
-
+  position: relative;
 }
 
 .arrival{
@@ -199,9 +200,7 @@ display: inline-block;
   font-size: 15px;
   color: #B42100;
   float: left;
-  padding: 8px 0 0 0px;
-  margin-left: 20px;
-
+  padding: 8px 0 0 35px;
 }
 
 .frequency{
@@ -209,11 +208,21 @@ display: inline-block;
   font-size: 12px;
   float: left;
   padding: 1px 0 0 0px;
-  width:100%;
+}
+
+ .frequency <  .reroute {
+  float: none;
+  padding: 1px 0 0 25px;
 }
 
 .arrow{
 float: left;
 width: 10%;
 padding: 15px 0 0 0;
+}
+
+.OutofService > .frequency{
+  float: right;
+  padding: 1px 0 0 0px;
+  overflow: hidden;
 }
