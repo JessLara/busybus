@@ -27,7 +27,7 @@ padding-top: 76px;
   z-index: 320;
 }
 .statusbar {
-  background-image: url('/images/statusbar.png');
+  background-image: url(/images/statusbar.png);
   background-repeat: no-repeat;
   height: 20px;
   width: 100%;
@@ -64,7 +64,7 @@ display: inline-block;
 
   /* Map */
   .map{
-    background-image: url('/images/mask.png');
+    background-image: url(/images/mask.png);
     height: 255px;
     width: 100%
   }
@@ -85,7 +85,7 @@ display: inline-block;
   }
 
   .busmap{
-    background-image: url('/Users/jessenialara/bloc/busybus/images/mask.png');
+    background-image: url(/images/busiconmap.png);
     color: #fff;
     height: 19.92px;
     width: 19.92px;
@@ -111,12 +111,23 @@ display: inline-block;
   padding-top: 5px;
   font-weight:bold;
 }
+
+.busstop{
+  width: 100%;
+  height: 56px;
+  border-bottom: .05px solid #BCBBC1;
+  background: #FFFFFF;
+  padding-left: 16px;
+  box-shadow: inset 0 0 0 0 #BCBBC1;
+  background-color: #fff;
+}
+
 /* Bus Icon divs*/
 .buswrapper{
   float: left;
   height: 100%;
-  width: 16%;
-  padding: 10px 0 10px  ;
+  width: 15%;
+  padding: 10px 0 0 0;
 }
 
 .busicon{
@@ -125,7 +136,7 @@ display: inline-block;
   width: 49px;
   height: 39px;
   text-align: center;
-  background-image: url('/images/buslogo.png');
+  background-image: url(/images/buslogo.png);
   background-position: center 4.5px;
   background-repeat: no-repeat;
   float: left;
@@ -162,26 +173,17 @@ display: inline-block;
   color: #fff;
 }
 
-.busstop{
-  width: 100%;
-  height: 56px;
-  border-bottom: .05px solid #BCBBC1;
-  background: #FFFFFF;
-  padding-left: 12px;
-  box-shadow: inset 0 0 0 0 #BCBBC1;
-  background-color: #fff;
-}
-
 .destwrapper{
   float: left;
-  width: 55%;
+  width: 50%;
+  padding: 10px 0 0 4px;
 }
 
 .destination{
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   color: #000000;
-  padding: 10px 0 0px 5px;
+  padding: 10px 0 0 0;
   float:left;
 }
 
@@ -196,21 +198,22 @@ display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
   color: #B42100;
-  padding: 8px 0 1px 30px;
   float: left;
+  padding: 8px 0 0 0px;
+  margin-left: 20px;
+
 }
 
 .frequency{
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   float: left;
-  padding: 1px 1px 0 5px;
-  text-align: left;
+  padding: 1px 0 0 0px;
+  width:100%;
 }
 
 .arrow{
 float: left;
-width: 4%;
+width: 10%;
 padding: 15px 0 0 0;
-
 }
