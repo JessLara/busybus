@@ -65,7 +65,7 @@ display: inline-block;
 
   /* Map */
   .map{
-    background-image: url("../images/mask.png");
+    background-image: url("../images/map.png");
     height: 255px;
     width: 100%
   }
@@ -195,6 +195,20 @@ display: inline-block;
   position: relative;
 }
 
+.OutofService .destwrapper {
+  width: 43%;
+}
+
+.OutofService .freqwrapper {
+  width: 31%;
+}
+
+.OutofService .arrow{
+  width: 11%;
+  padding-left: 4px;
+}
+
+
 .arrival{
   font-family: 'Roboto', sans-serif;
   font-size: 15px;
@@ -207,22 +221,36 @@ display: inline-block;
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   float: left;
-  padding: 1px 0 0 0px;
+  padding: 1px 0 0 0;
+  overflow: hidden;
 }
 
- .frequency <  .reroute {
-  float: none;
-  padding: 1px 0 0 25px;
+.reroute .arrival{
+  float: left;
+  padding: 8px 0 0 27px;
+  overflow: hidden;
+}
+
+
+.reroute .frequency{
+  float: left;
+  padding: 1px 0 0 50px;
+}
+
+.OutofService .arrival{
+  float: left;
+  padding: 10px 0 0 70px;
+  overflow: hidden;
+}
+
+.OutofService .frequency{
+  float: right;
+  padding: 7px 11px 0 0;
+  overflow: hidden;
 }
 
 .arrow{
 float: left;
 width: 10%;
 padding: 15px 0 0 0;
-}
-
-.OutofService > .frequency{
-  float: right;
-  padding: 1px 0 0 0px;
-  overflow: hidden;
 }
