@@ -195,6 +195,10 @@ display: inline-block;
   position: relative;
 }
 
+.OutofService .buswrapper{
+  width: 15%;
+}
+
 .OutofService .destwrapper {
   width: 43%;
 }
