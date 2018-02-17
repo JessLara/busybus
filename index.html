@@ -13,17 +13,15 @@
 </head>
 
 <body>
-  <!--Top Nav-->
   <div class="container">
-    <section class="topnav">
+    <!--Top Nav-->
+    <section class="topnav" role="header">
       <div class="statusbar"></div>
       <div class="stopnav">
         <div class="back">
           <i class="fas fa-chevron-left fa-2x"></i>
         </div>
-        <div class="stop">
-          Washington & State
-        </div>
+        <div class="stop">Washington & State</div>
         <div class="star">
           <i class="fas fa-star fa-2x"></i>
         </div>
@@ -31,28 +29,26 @@
     </section>
 
     <!--Map Section-->
-    <section class="map">
+    <section class="map" role="city map">
       <div class="mapimg" alt="map"></div>
       <div class="busmap"></div>
-      <div class="mapicon" alt="current location icon"></div>
+      <div class="mapicon" role="current location"></div>
       <div class="mapiconline"></div>
     </section>
     <!--list of bus lines-->
-    <section class="buslines">
-      <div class="buslinenav">
+    <section class="buslines" role="list of buses">
+      <div class="buslinewrapper">
         <div class="blbar">Bus Lines</div>
       </div>
       <!---eastbound buses------------------------------>
-      <div class="Southbound">
+      <div class="eastbound">
         <div class="direction">Eastbound</div>
         <!--Randolph/Harbor Dr-->
         <div class="busstop">
           <div class="buswrapper">
             <div class="busicon">
               <div class="businner">
-                <div class="innerbusbox">
-                  <div class="busnumber"></div>
-                </div>
+                <div class="innerbusbox"></div>
               </div>
               <div class="buslinenumber">60</div>
             </div>
@@ -61,21 +57,19 @@
             <div class="destination"> Randolph/Harbor Dr </div>
           </div>
           <div class="freqwrapper">
-            <div class="arrival">1 min</div>
+            <div class="arrival" id="nextbus">1 min</div>
             <div class="frequency">every 20 mins</div>
           </div>
           <div class="arrow">
-            <i class="fas fa-chevron-right" aria-hidden="true"></i>
+            <i class="fas fa-chevron-right" id="nextbus" aria-hidden="true"></i>
           </div>
         </div>
-        <!--Navy Pier Southbound-->
+        <!--Navy Pier Eastbound-->
         <div class="busstop">
           <div class="buswrapper">
             <div class="busicon">
               <div class="businner">
-                <div class="innerbusbox">
-                  <div class="busnumber"></div>
-                </div>
+                <div class="innerbusbox"></div>
               </div>
               <div class="buslinenumber">124</div>
             </div>
@@ -102,9 +96,7 @@
           <div class="buswrapper">
             <div class="busicon">
               <div class="businner">
-                <div class="innerbusbox">
-                  <div class="busnumber"></div>
-                </div>
+                <div class="innerbusbox"></div>
               </div>
               <div class="buslinenumber">151</div>
             </div>
@@ -130,7 +122,6 @@
             <div class="busicon">
               <div class="businner">
                 <div class="innerbusbox">
-                  <div class="busnumber"></div>
                 </div>
               </div>
               <div class="buslinenumber">J14</div>
@@ -152,9 +143,7 @@
           <div class="buswrapper">
             <div class="busicon">
               <div class="businner">
-                <div class="innerbusbox">
-                  <div class="busnumber"></div>
-                </div>
+                <div class="innerbusbox"></div>
               </div>
               <div class="buslinenumber">124</div>
             </div>
@@ -179,9 +168,7 @@
           <div class="buswrapper">
             <div class="busicon">
               <div class="businner">
-                <div class="innerbusbox">
-                  <div class="busnumber"></div>
-                </div>
+                <div class="innerbusbox"></div>
               </div>
               <div class="buslinenumber">6x</div>
             </div>
@@ -206,9 +193,7 @@
           <div class="buswrapper">
             <div class="busicon">
               <div class="businner">
-                <div class="innerbusbox">
-                  <div class="busnumber"></div>
-                </div>
+                <div class="innerbusbox"></div>
               </div>
               <div class="buslinenumber">4</div>
             </div>
@@ -229,9 +214,7 @@
           <div class="buswrapper">
             <div class="busicon">
               <div class="businner">
-                <div class="innerbusbox">
-                  <div class="busnumber"></div>
-                </div>
+                <div class="innerbusbox"></div>
               </div>
               <div class="buslinenumber">20</div>
             </div>
@@ -252,9 +235,7 @@
           <div class="buswrapper">
             <div class="busicon">
               <div class="businner">
-                <div class="innerbusbox">
-                  <div class="busnumber"></div>
-                </div>
+                <div class="innerbusbox"></div>
               </div>
               <div class="buslinenumber">157</div>
             </div>

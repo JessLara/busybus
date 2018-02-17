@@ -5,28 +5,27 @@
 body {
   background-color: #fff;
   font-size: 16px;
-
 }
 
 .container {
-width: 100%;
-max-width: 375px;
-padding-top: 76px;
-margin: 0;
+  width: 100%;
+  max-width: 375px;
+  padding-top: 76px;
+  margin: 0;
 }
 
-  /* Top Navigation */
-.topnav{
+/* Top Navigation */
+
+.topnav {
   background: #265E9E;
   width: 100%;
   height: 84px;
-  text-align: center;
-  vertical-align: middle;
   max-width: 375px;
   position: fixed;
   top: 0px;
   z-index: 320;
 }
+
 .statusbar {
   background-image: url("../images/statusbar.png");
   background-repeat: no-repeat;
@@ -34,108 +33,133 @@ margin: 0;
   width: 100%;
 }
 
-.stopnav{
+.stopnav {
   color: #FFFFFF;
   width: 100%;
   height: 64px;
-  padding-top: 20px;
-  display: block;
-}
-
-.back{
-float: left;
-margin-left: 16px;
-display: inline-block;
-}
-
-.stop{
-  /* Washington & State: */
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.1em;
-  letter-spacing: -0.41px;
-  display: inline-block;
-
-}
-
-.star{
-  float: right;
   margin-right: 16px;
-  display: inline-block;
+  margin-left: 16px;
 }
 
-  /* Map */
-  .map{
-    background-image: url("../images/map.png");
-    height: 255px;
-    width: 100%
-  }
+.back {
+  float: left;
+  width: 20%;
+  padding: 20px 0 0 0;
+}
 
-  .mapicon{
-    background-color: #0078FF;
-    width: 34.15px;
-    height: 36.74px;
-    border-radius: 20px;
-    position: absolute; visibility: inherit; left: 160px; top: 250px; z-index: 200;
-  }
+.stop {
+  /* Washington & State: */
+  font-family: SFProText-Semibold, 'Roboto', sans-serif;
+  font-size: 1.063em;
+  color: #FFFFFF;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  float: left;
+  width: 50%;
+  text-align: center;
+  vertical-align: middle;
+  padding: 25px 0 0 0;
+}
 
-  .mapiconline{
-    background-color: #0078FF;
-    width: 2px;
-    height: 18.8px;
-    position: absolute; visibility: visible; left: 176.5px; top: 285px; z-index: 200;
-  }
+.star {
+  float: left;
+  margin-right: 16px;
+  width: 20%;
+  padding: 18px 0 0 40px;
+}
 
-  .busmap{
-    background-image: url("../images/busiconmap.png");
-    color: #fff;
-    height: 19.92px;
-    width: 19.92px;
-    position: absolute; visibility: visible; left: 168px; top: 259px; z-index: 300;
-  }
-  /* Bus Line */
-.blbar{
+/* Map */
+
+.map {
+  background-image: url("../images/map.png");
+  height: 255px;
+  width: 100%
+}
+
+.mapicon {
+  background-color: #0078FF;
+  width: 34.15px;
+  height: 36.74px;
+  border-radius: 20px;
+  position: absolute;
+  visibility: inherit;
+  left: 160px;
+  top: 250px;
+  z-index: 200;
+}
+
+.mapiconline {
+  background-color: #0078FF;
+  width: 2px;
+  height: 18.8px;
+  position: absolute;
+  visibility: visible;
+  left: 176.5px;
+  top: 285px;
+  z-index: 200;
+}
+
+.busmap {
+  background-image: url("../images/busiconmap.png");
+  color: #fff;
+  height: 19.92px;
+  width: 19.92px;
+  position: absolute;
+  visibility: visible;
+  left: 168px;
+  top: 259px;
+  z-index: 300;
+}
+
+/* Bus Line */
+
+.blbar {
   background-color: #265E9E;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.1em;
+  font-family: SFProText-Semibold, 'Roboto', sans-serif;
+  font-size: 1.063em;
   height: 44px;
   color: #fff;
+  letter-spacing: -0.41px;
+  line-height: 22px;
   padding-left: 16px;
   padding-top: 10px;
 }
 
-.direction{
+.direction {
   background-color: #F8F8F8;
-  font-family: 'Roboto', sans-serif;
+  font-family: SFProText-Semibold, 'Roboto', sans-serif;
   font-size: 1em;
+  color: #000000;
+  letter-spacing: -0.32px;
+  line-height: 21px;
   height: 28px;
-  padding-left: 16px;
-  padding-top: 5px;
-  font-weight:bold;
+  padding: 5px 0 0 16px;
 }
 
-.busstop{
+.busstop {
   width: 100%;
   height: 56px;
-  border-bottom: .05px solid #BCBBC1;
   background: #FFFFFF;
   padding-left: 16px;
+  padding-right: 16px;
   box-shadow: inset 0 0 0 0 #BCBBC1;
-  background-color: #fff;
+  border-bottom: .02px solid #BCBBC1;
 }
 
 /* Bus Icon divs*/
-.buswrapper{
+
+.buswrapper {
   float: left;
   height: 100%;
   width: 15%;
-  padding: 10px 0 0 0;
+  padding: 8px 0 0 0;
 }
 
-.busicon{
+.busicon {
   background-color: #D0021B;
   border-radius: 6px;
   width: 49px;
-  height: 39px;
+  height: 41px;
   text-align: center;
   background-image: url("../images/buslogo.png");
   background-position: center 4.5px;
@@ -143,20 +167,20 @@ display: inline-block;
   float: left;
 }
 
-.businner{
+.businner {
   background-color: #D0021;
   width: 45px;
-  height: 35px;
+  height: 38px;
   border-radius: 6px;
   margin: 2px;
   display: inline-block;
   border: solid 1px #fff;
 }
 
-.innerbusbox{
-  height: 14px;
+.innerbusbox {
+  height: 17px;
   width: 45px;
-  border-color:#fff;
+  border-color: #fff;
   margin-left: -1px;
   margin-top: 20px;
   display: inline-block;
@@ -165,96 +189,124 @@ display: inline-block;
   border-bottom-right-radius: 6px;
 }
 
-.buslinenumber{
-  height: 14px;
+.buslinenumber {
+  height: 10px;
   width: 49px;
-  margin-top: -19.5px;
+  margin-top: -20px;
   font-size: 14px;
   text-align: center;
   color: #fff;
 }
 
-.destwrapper{
+.destwrapper {
   float: left;
   width: 50%;
   padding: 10px 0 0 4px;
 }
 
-.destination{
-  font-family: 'Roboto', sans-serif;
-  font-size: 17px;
+.destination {
+  font-family: SFProText-Regular, 'Roboto', sans-serif;
+  font-size: 1.063em;
   color: #000000;
+  letter-spacing: -0.41px;
+  line-height: 22px;
   padding: 10px 0 0 0;
-  float:left;
+  float: left;
 }
 
-.freqwrapper{
+.freqwrapper {
   float: left;
-  width: 25%;
+  width: 30%;
   height: 100%;
-  position: relative;
+  padding: 0 0 0 18px;
+  text-align: right;
 }
 
-.OutofService .buswrapper{
-  width: 15%;
-}
-
-.OutofService .destwrapper {
-  width: 43%;
-}
-
-.OutofService .freqwrapper {
-  width: 31%;
-}
-
-.OutofService .arrow{
-  width: 11%;
-  padding-left: 4px;
-}
-
-
-.arrival{
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  color: #B42100;
+.arrival {
+  font-family: SFProText-Regular, 'Roboto', sans-serif;
+  font-size: 0.938em;
+  color: #222222;
+  letter-spacing: -0.36px;
+  line-height: 22px;
   float: left;
-  padding: 8px 0 0 35px;
+  padding: 10px 0 0 35px;
 }
 
-.frequency{
+.frequency {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
+  letter-spacing: 0;
+  line-height: 16px;
+  color: #4A4A4A;
   float: left;
-  padding: 1px 0 0 0;
-  overflow: hidden;
+  padding: 3px 0 0 0;
 }
 
-.reroute .arrival{
+#nextbus {
+  color: #D0021B;
+}
+
+.arrow {
+  width: 5%;
+  float: left;
+  padding: 22px 0 0 7px;
+  color: rgba(85, 85, 88, 0.75);
+}
+
+/* Reroute divs adjustments*/
+
+.reroute .destwrapper {
+  width: 55%;
+  padding: 10px 5px;
+  float: left;
+}
+
+.reroute .freqwrapper {
+  width: 25%;
+  padding: 8px 0 0 0;
+  text-align: right;
+}
+
+.reroute .arrow {
+  width: 5%;
+}
+
+.reroute .arrival {
   float: left;
   padding: 8px 0 0 27px;
   overflow: hidden;
 }
 
-
-.reroute .frequency{
+.reroute .frequency {
   float: left;
-  padding: 1px 0 0 50px;
+  padding: 3px 0 0 50px;
 }
 
-.OutofService .arrival{
+/* OutofService divs adjustments*/
+
+.OutofService .destwrapper {
+  width: 45%;
+  padding: 10px 5px;
   float: left;
-  padding: 10px 0 0 70px;
+}
+
+.OutofService .freqwrapper {
+  width: 35%;
+  padding: 8px 0 0 0;
+  text-align: right;
+}
+
+.OutofService .arrow {
+  width: 5%;
+}
+
+.OutofService .arrival {
+  float: left;
+  padding: 8px 0 0 77px;
   overflow: hidden;
 }
 
-.OutofService .frequency{
+.OutofService .frequency {
   float: right;
-  padding: 7px 11px 0 0;
-  overflow: hidden;
-}
-
-.arrow{
-float: left;
-width: 10%;
-padding: 15px 0 0 0;
+  padding: 3px 10px 0 0;
 }
