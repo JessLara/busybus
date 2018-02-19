@@ -126,7 +126,7 @@ body {
 }
 
 .direction {
-  background-color: #F8F8F8;
+  background-color: #cecece;
   font-family: SFProText-Semibold, 'Roboto', sans-serif;
   font-size: 1em;
   color: #000000;
@@ -279,7 +279,7 @@ body {
 
 .reroute .frequency {
   float: left;
-  padding: 3px 0 0 50px;
+  padding: 2px 0 0 50px;
 }
 
 /* OutofService divs adjustments*/
@@ -308,5 +308,5 @@ body {
 
 .OutofService .frequency {
   float: right;
-  padding: 3px 10px 0 0;
+  padding: 2px 10px 0 0;
 }
