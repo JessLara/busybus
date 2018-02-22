@@ -3,11 +3,8 @@
 }
 
 @font-face {
-  font-family: "SFProText", "FProText-Semibold", "SFProText-bold", "SFProText-Regular";
-  src: url("../font")
-  src: url('..font/SF-Pro-Text-Bold.otf'),
-  src: url('..font/SF-Pro-Text-Semibold.otf'),
-  src: url('..font/SF-Pro-Text-Regular.otf'),
+  font-family: "SFProText";
+  src: url('..font/SF-Pro-Text-Regular.otf')
 }
 
 body {
@@ -58,7 +55,8 @@ body {
 
 .stop {
   /* Washington & State: */
-  font-family: "SFProText-Semibold", 'Roboto', sans-serif;
+  font-family: "SFProText", 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 1.063em;
   color: #FFFFFF;
   letter-spacing: -0.41px;
@@ -124,7 +122,8 @@ body {
 
 .blbar {
   background-color: #265E9E;
-  font-family: "SFProText-Semibold", 'Roboto', sans-serif;
+  font-family: "SFProText", 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 1.063em;
   height: 44px;
   color: #fff;
@@ -136,7 +135,8 @@ body {
 
 .direction {
   background-color: #F8F8F8;
-  font-family: "SFProText-Semibold", 'Roboto', sans-serif;
+  font-family: "SFProText", 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 1em;
   color: #000000;
   letter-spacing: -0.32px;
@@ -188,6 +188,7 @@ body {
   text-align: center;
   font-size: 1em;
   font-family: "SFProText-bold", 'Roboto', sans-serif;
+  font-weight: bold;
 }
 
 /*destination*/
@@ -199,7 +200,7 @@ body {
 }
 
 h3 {
-  font-family: "SFProText-Regular", 'Roboto', sans-serif;
+  font-family: "SFProText", 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.063em;
   color: #000000;
@@ -217,7 +218,8 @@ h3 {
 }
 
 .arrival {
-  font-family: "SFProText-Regular", 'Roboto', sans-serif;
+  font-family: "SFProText", 'Roboto', sans-serif;
+  font-weight: normal;
   font-size: 0.938em;
   color: #222222;
   letter-spacing: -0.36px;
@@ -227,7 +229,8 @@ h3 {
 }
 
 .frequency {
-  font-family: "SFProText-Regular", 'Roboto', sans-serif;
+  font-family: "SFProText", 'Roboto', sans-serif;
+  font-weight: normal;
   font-size: 0.750em;
   letter-spacing: 0;
   line-height: 16px;
