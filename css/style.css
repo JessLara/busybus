@@ -4,10 +4,10 @@
 
 @font-face {
   font-family: "SFProText", "FProText-Semibold", "SFProText-bold", "SFProText-Regular";
-  src: url("../font");
-  src: url('..font/SF-Pro-Text-Bold.otf');
-  src: url('..font/SF-Pro-Text-Semibold.otf');
-  src: url('..font/SF-Pro-Text-Regular.otf');
+  src: url("../font")
+  src: url('..font/SF-Pro-Text-Bold.otf'),
+  src: url('..font/SF-Pro-Text-Semibold.otf'),
+  src: url('..font/SF-Pro-Text-Regular.otf'),
 }
 
 body {
