@@ -50,7 +50,7 @@ body {
 .back {
   float: left;
   width: 20%;
-  padding: 10px 0 10px 10px;
+  padding: 10px 0 10px 0;
 }
 
 .stop {
@@ -191,7 +191,7 @@ body {
 .destwrapper {
   float: left;
   width: 50%;
-  padding: 0 0 0 2px;
+  padding: 0 0 0 4px;
 }
 
 h3 {
