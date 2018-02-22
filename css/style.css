@@ -10,7 +10,7 @@ body {
 
 @font-face {
   font-family: "SFProText";
-  src: url("..busybus/font")
+  src: url("../font")
 }
 
 .container {
