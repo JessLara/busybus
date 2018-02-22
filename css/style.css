@@ -2,15 +2,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "SFProText", "FProText-Semibold", "SFProText-bold", "SFProText-Regular";
+  src: url("../font") src: url('..font/SF-Pro-Text-Bold.otf') src: url('..font/SF-Pro-Text-Semibold.otf') src: url('..font/SF-Pro-Text-Regular.otf')
+}
+
 body {
   background-color: #fff;
   font-size: 16px;
   font-family: "SFProText";
-}
-
-@font-face {
-  font-family: "SFProText";
-  src: url("../font")
 }
 
 .container {
@@ -186,7 +186,8 @@ body {
   font-size: 1em;
   font-family: "SFProText-bold", 'Roboto', sans-serif;
 }
- /*destination*/
+
+/*destination*/
 
 .destwrapper {
   float: left;
@@ -223,7 +224,7 @@ h3 {
 }
 
 .frequency {
-  font-family: "SFProText-Regular", 'Roboto' , sans-serif;
+  font-family: "SFProText-Regular", 'Roboto', sans-serif;
   font-size: 0.750em;
   letter-spacing: 0;
   line-height: 16px;
