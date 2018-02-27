@@ -3,17 +3,17 @@
 }
 
 @font-face {
-  font-family: "FProText-Semibold";
+  font-family: 'FProText-Semibold';
   src: url('..font/SF-Pro-Text-Semibold.otf') format('opentype');
 }
 
 @font-face {
-  font-family: "SFProText-bold";
+  font-family: 'SFProText-bold';
   src: url('..font/SF-Pro-Text-Bold.otf') format('opentype');
 }
 
 @font-face {
-  font-family: "SFProText-Regular";
+  font-family: 'SFProText-Regular';
   src: url('..font/SF-Pro-Text-Regular.otf') format('opentype');
 }
 
@@ -22,7 +22,7 @@
 body {
   background-color: #fff;
   font-size: 16px;
-  font-family: "SFProText";
+  font-family: 'SFProText';
 }
 
 .container {
@@ -67,7 +67,7 @@ body {
 
 .stop {
   /* Washington & State: */
-  font-family: "SFProText-Semibold", 'Roboto', sans-serif;
+  font-family: 'SFProText-Semibold', 'Roboto', sans-serif;
   font-size: 1.063em;
   color: #FFFFFF;
   letter-spacing: -0.41px;
@@ -133,7 +133,7 @@ body {
 
 .blbar {
   background-color: #265E9E;
-  font-family: "SFProText-Semibold", 'Roboto', sans-serif;
+  font-family: 'SFProText-Semibold', 'Roboto', sans-serif;
   font-size: 1.063em;
   height: 44px;
   color: #fff;
@@ -145,7 +145,7 @@ body {
 
 .direction {
   background-color: #F8F8F8;
-  font-family: "SFProText-Semibold", 'Roboto', sans-serif;
+  font-family: 'SFProText-Semibold', 'Roboto', sans-serif;
   font-size: 1em;
   color: #000000;
   letter-spacing: -0.32px;
@@ -174,29 +174,29 @@ body {
 }
 
 .busicon {
-  background-color: #fff;
-  border: solid 1px #D0021B;
+  background-color: #D0021B;
   border-radius: 8px;
   width: 49px;
   height: 39px;
   background-repeat: no-repeat;
   float: left;
-}
-
-.businner {
-  background-color: #D0021B;
-  width: 43px;
-  height: 33px;
-  border-radius: 6px;
-  margin: 2px;
-  display: inline-block;
   text-align: center;
   border: solid 1px #fff;
   color: #fff;
   padding: 7px;
   text-align: center;
   font-size: 1em;
-  font-family: "SFProText-bold", 'Roboto', sans-serif;
+  font-family: 'SFProText-bold', 'Roboto', sans-serif;
+}
+
+.businner {
+  background-color: ;
+  width: 43px;
+  height: 33px;
+  border-radius: 6px;
+  margin: 2px;
+  display: inline-block;
+
 }
 
 /*destination*/
@@ -208,7 +208,7 @@ body {
 }
 
 h3 {
-  font-family: "SFProText-Regular", 'Roboto', sans-serif;
+  font-family: 'SFProText-Regular', 'Roboto', sans-serif;
   font-weight: normal;
   font-size: 1.063em;
   color: #000000;
@@ -226,7 +226,7 @@ h3 {
 }
 
 .arrival {
-  font-family: "SFProText-Regular", 'Roboto', sans-serif;
+  font-family: 'SFProText-Regular', 'Roboto', sans-serif;
   font-size: 0.938em;
   color: #222222;
   letter-spacing: -0.36px;
@@ -236,7 +236,7 @@ h3 {
 }
 
 .frequency {
-  font-family: "SFProText-Regular", 'Roboto', sans-serif;
+  font-family: 'SFProText-Regular', 'Roboto', sans-serif;
   font-size: 0.750em;
   letter-spacing: 0;
   line-height: 16px;
